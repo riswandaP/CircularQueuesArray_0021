@@ -69,3 +69,8 @@ class Queues
                 FRONT = FRONT + 1;
         }
     }
+    void Display() {
+    //membuat void display
+        int FRONT_Position = FRONT;
+        int REAR_Position = REAR;
+
