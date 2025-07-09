@@ -15,3 +15,6 @@ class Queues
             REAR = -1;
         }   
         //membuat inputan
+
+    void insert()
+    //membuat void insert
