@@ -30,4 +30,12 @@ class Queues
             return;
         }
         // Cek apakah antrian Kosong
+        if (FRONT == -1)
+        {
+            FRONT = 0;
+            REAR = 0;
+        }
+        else
+        {
+            // Jika REAR berada di posisi terakhir array, kembali ke awal array
  
