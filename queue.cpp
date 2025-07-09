@@ -46,3 +46,11 @@ class Queues
         queue_array[REAR] = num;
     }
     void Remove()
+    {
+        // Cek apakah antrian Kosong
+        if (FRONT == -1)
+        {
+            cout << "Queue underflow\n";
+            return;
+        }
+        cout << "\nThe element delete from the queue is :" << queue_array[FRONT] << "\n";
