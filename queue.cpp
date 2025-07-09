@@ -18,3 +18,10 @@ class Queues
 
     void insert()
     //membuat void insert
+    {
+        int num;
+        cout << "Enter a number: ";
+        cin >> num;
+        cout << endl;
+        // Cek apakah antrian Penuh
+ 
